@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("IMG_5572.jpg")
+}
+
+
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-around; /* Raspored po celoj širini stranice */
+  background-color: rgba(252,245,245,0.25);
+  color: #FFFFFF;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+.navbar{
+  margin-right: 20px;
+}
+
+.navbar{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+p{ background-color:rgba(52,52,52,0.56);
+	color: #EEEEEE;
+	font-size: 25px;
+	width: 1000px;
+	padding: 20px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 35px
+}
+
+h1,h2{
+	background-color:rgba(0,0,0,0.59);
+	color: #FFFFFF;
+	font-size: 70px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding: 0px;
+	line-height: 70px
+		
+		
+}
+h1{
+	font-family: ImePrezime_NOVO2;
+	background-color:rgba(0,0,0,0.59);
+	color: #FFFFFF;
+	font-size: 70px;
+	line-height: 70px;
+	letter-spacing: 4px;
+		
+}
+ .linkovi{
+	 display: inline-table;
+	color:white;
+	 text-decoration: none;
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 25px;
+	 background-color: rgba(0,0,0,0.61)
+}
+
+img{
+	height: 300px;
+	
+}
+video{
+	height: 500px;
+}
+@font-face{
+	font-family:ImePrezime_NOVO2; 
+	src:  url(ImePrezime_NOVO2.ttf);
+}
